@@ -32,7 +32,7 @@
                     break;
 
                     default:
-                    Console.WriteLine("ERROR")
+                    Console.WriteLine("ERROR");
                         break;
                 
 
