@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.Design;
+using System.Threading.Channels;
 
 namespace forcircle
 {
@@ -38,9 +39,12 @@ namespace forcircle
                     }
                 }
                 Console.WriteLine();
-
-            
             }
+            double mbermoot = 2 * 3.14 * radius;
+            double pindala = Math.PI * (radius * radius);
+            Console.WriteLine("Ringi ümbermõõt on:" + mbermoot);
+            Console.WriteLine("Ringi pindala on: " + pindala);
+            Console.ReadKey();
         }
     }
 }
